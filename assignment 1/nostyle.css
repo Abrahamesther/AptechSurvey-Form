@@ -1,0 +1,47 @@
+h1, h3{
+    text-align: center;
+}
+section{
+    width: 50%;
+    margin: auto;
+    background-color: darkred;
+    color: white;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+label{
+    display: block;
+}
+div {
+    width: 80%;
+    margin: auto;
+    display: block;
+    padding: 20px 0;
+}
+input[type="text"], input[type="email"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 7px;
+
+}
+input[type="text"], input[type="email"], input[type="number"]{
+    margin-bottom: 20px;
+}
+.pushup{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.expand{
+    margin: auto;
+    display: grid;
+    width: 105%;
+    background-color: lightgreen;
+    padding: 12px;
+    border-radius: 7px;
+}
+select{
+    width: 105%;
+    padding: 10px;
+    border-radius: 7px;
+    margin-bottom: 5px;
+}
